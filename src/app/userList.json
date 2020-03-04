@@ -1,0 +1,26 @@
+[
+  {
+    "firstName": "Robin",
+    "lastName": "Hooda",
+    "employeeID": 10373,
+    "role": "Application Developer"
+  },
+  {
+    "firstName": "Rohan",
+    "lastName": "Kumar",
+    "employeeID": 34562,
+    "role": "Senior Application Developer"
+  },
+  {
+    "firstName": "Arti",
+    "lastName": "Singh",
+    "employeeID": 11234,
+    "role": "DevOps Engineer"
+  },
+  {
+    "firstName": "Sneha",
+    "lastName": "Tripathi",
+    "employeeID": 26342,
+    "role": "Tech Lead"
+  }
+]
