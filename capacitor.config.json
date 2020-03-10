@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "User-List_App",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
