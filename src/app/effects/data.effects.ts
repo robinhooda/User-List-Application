@@ -8,7 +8,7 @@ import * as DataActions from "../actions/data.actions";
 
 @Injectable()
 export class DataEffects {
-  constructor(private actions: Actions, private dataService: DataService) {}
+  constructor(private actions: Actions, private dataService: DataService) { }
 
   @Effect()
   loadData = this.actions.pipe(

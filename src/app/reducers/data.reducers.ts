@@ -16,7 +16,6 @@ export function reducer(
   state = initialState,
   action: fromData.ActionsUnion
 ): DataState {
-//  console.log('state', state) // undefined or null -> +
   switch (action.type) {
     case fromData.ActionTypes.LoadDataBegin: {
       return {
@@ -30,7 +29,7 @@ export function reducer(
       return {
         ...state,
         loading: false,
-//         firstName,lastName,employeeID,role : action.payload.data;
+        //         firstName,lastName,employeeID,role : action.payload.data;
         users: action.payload.data
 
       };
