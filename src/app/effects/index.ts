@@ -24,5 +24,5 @@ export const metaReducers: MetaReducer<AppState>[] = !environment.production
 export const getDataState = (state: AppState) => state.data;
 export const getAllItems = createSelector(
   getDataState,
-  fromData.getItems
+  fromData.getUsers
 );

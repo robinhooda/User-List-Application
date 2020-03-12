@@ -1,7 +1,0 @@
-{
-  "name": "User-List_App",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}

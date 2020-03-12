@@ -3,7 +3,8 @@ import { HttpClient } from "@angular/common/http";
 import { Store } from "@ngrx/store";
 
 import * as DataActions from "../actions/data.actions";
-import { AppState, getAllItems, getDataState } from "../reducers";
+// import { AppState, getAllUsers, getDataState } from "../reducers/data.reducers";
+import { getAllUsers, getDataState } from "../reducers/data.reducers";
 
 @Injectable({
   providedIn: "root"
@@ -23,7 +24,7 @@ export class DataService {
     return this.store.select(getDataState);
   }
 
-  getItems() {
-    return this.store.select(getAllItems);
+  getUsers() {
+    return this.store.select(getAllUsers);
   }
 }

@@ -16,7 +16,7 @@ export function reducer(
   state = initialState,
   action: fromData.ActionsUnion
 ): DataState {
- console.log('state', state) // undefined or null -> +
+//  console.log('state', state) // undefined or null -> +
   switch (action.type) {
     case fromData.ActionTypes.LoadDataBegin: {
       return {
@@ -50,4 +50,4 @@ export function reducer(
   }
 }
 
-export const getItems = (state: DataState) => state.users;
+export const getAllUsers = (state: DataState) => state.users;
